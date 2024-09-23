@@ -15,7 +15,18 @@ class Database {
         return mysqli_query($this->connection, $raw);
     }
 
-    public function show($table) {
+    public function getOne(string $table, int $id): ?array {
+        $raw = "SELECT * FROM $table WHERE id = $id;";
+        $response = $this->query($raw);
+
+        if ($response->num_rows < 1) {
+            return null;
+        }
+
+        return $response->fetch_assoc();
+    }
+
+    public function getMany($table) {
         $raw = "SELECT * FROM $table;";
         $response = $this->query($raw);
 
