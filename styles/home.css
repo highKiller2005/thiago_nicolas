@@ -1,0 +1,57 @@
+.home {
+  background-color: white;
+  width: 80%;
+  margin: 2rem auto;
+  border-radius: 8px;
+  border: 1px solid #94a3b8;
+  padding: 1rem;
+}
+
+.home > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 auto;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  margin-top: 2rem;
+  border-collapse: collapse;
+}
+table tr {
+  transition: background-color 0.2s;
+}
+
+table td, table th {
+  border: 1px solid #ddd;
+  padding: 0.6rem;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table tr:last-child div {
+  display: flex;
+  gap: 1.5rem;
+}
+
+table th {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  text-align: left;
+  background-color: #3b82f6;
+  color: white;
+}
+
+.home .criar {
+  display: flex;
+  gap: 1rem;
+}
