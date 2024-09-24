@@ -1,0 +1,66 @@
+#visualizarProf {
+    display: flex;
+    flex-direction: column;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#voltarProf {
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    background-color: #1d70f0;
+    text-decoration: none;
+    padding: 10px 1rem;
+    max-width: fit-content;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+#informacaoProf {
+    border: solid 3px;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#informacaoProf form {
+    display: flex;
+}
+
+#centralizar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100vw;
+}
+
+#informacaoProf input {
+    border-radius: 8px;
+    border: solid 1.5px ;
+    padding: 0.4rem;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+#informacaoProf label {
+    font-size: 20px;
+}
+
+#infoPessoa {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#infoPessoa button {
+    margin-left: 60%;
+}
+
+
+
+
