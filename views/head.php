@@ -11,6 +11,6 @@
   <link rel="stylesheet" href="styles/index.css">
   <link rel="stylesheet" href="styles/home.css">
 
-  <title>Dashboard | <?= $page_title ?></title>
+  <title>Dashboard | <?= $props["title"] ?></title>
 </head>
 <body>

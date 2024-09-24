@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "miguelsolorio.min-theme",
+    "PKief.material-icon-theme",
+    "TabNine.tabnine-vscode",
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss",
+    "otovo-oss.htmx-tags",
+    // "vscodevim.vim",
+    "bmewburn.vscode-intelephense-client"
+  ]
+}
